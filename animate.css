@@ -1,0 +1,135 @@
+/*hair-part 头发部分*/
+@-webkit-keyframes hair{
+	0%{
+		border-top-left-radius: 66px;	
+	}
+	50%{
+		border-top-left-radius: 55px;
+	}
+	100%{
+		border-top-left-radius: 66px;
+	}
+}
+/*mouse嘴巴部分*/
+@-webkit-keyframes mouses{
+	0%{
+		transform:scale(1);
+	}
+	50%{
+		transform:scale(0.8);
+	}
+	100%{
+		transform:scale(1);
+	}
+}
+
+/*eyes-part 眼睛部分*/
+@-webkit-keyframes eyes{
+	0%{
+		left:22px;
+	}
+	25%{
+		left:37px;
+	}
+	50%{
+		left:22px;
+	}
+	75%{
+		left:7px;
+	}
+	100%{
+		left:22px;
+	}
+}
+@-webkit-keyframes eyeinside{
+	0%{
+		left:17px;
+		top:7px;
+	}
+	25%{
+		left:20px;
+		top:11px;
+	}
+	50%{
+		left:17px;
+		top:7px;
+	}
+	75%{
+		left:2px;
+		top:11px;
+	}
+	100%{
+		left:17px;
+		top:7px;
+	}
+}
+/*arms*/
+@-webkit-keyframes armslf{
+	0%{
+		transform:rotate(46deg);
+	}
+	25%{
+		transform:rotate(46deg);
+	}
+	50%{
+		transform:rotate(46deg);
+	}
+	75%{
+		transform:rotate(48deg);
+	}
+	100%{
+		transform:rotate(46deg);
+	}
+}
+@-webkit-keyframes armsrg{
+	0%{
+		transform:rotate(45deg);
+	}
+	25%{
+		transform:rotate(43deg);
+	}
+	50%{
+		transform:rotate(45deg);
+	}
+	75%{
+		transform:rotate(45deg);
+	}
+	100%{
+		transform:rotate(45deg);
+	}
+}
+/*feet*/
+@-webkit-keyframes feetlf{
+	0%{
+		transform: rotate(0deg);
+	}
+	25%{
+		transform: rotate(8deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	75%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+@-webkit-keyframes feetrg{
+	0%{
+		transform: rotate(0deg);
+	}
+	25%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	75%{
+		transform: rotate(-10deg)
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
