@@ -30,6 +30,7 @@ body{
 	border-top-left-radius: 66px;
 	transform:rotateZ(48deg);
 	animation:hair 3s linear infinite;
+	-ms-animation:hair 3s linear infinite;
 }
 .hair-short{
 	position: absolute;
@@ -71,6 +72,9 @@ body{
 	left:22px;
 	top:24px;
 	animation:eyes 4s infinite;
+	-ms-animation:eyes 4s infinite;
+	-webkit-animation:eyes 4s infinite;
+	-moz-animation:eyes 4s infinite;
 }
 .pupil-inside{
 	width:20px;
@@ -81,6 +85,9 @@ body{
 	left:17px;
 	top:7px;
 	animation:eyeinside 4s  infinite;
+	-ms-animation:eyeinside 4s  infinite;
+	-webkit-animation:eyeinside 4s  infinite;
+	-moz-animation:eyeinside 4s  infinite;
 }
 .eye-glass{
 	width:24px;
@@ -114,6 +121,9 @@ body{
 	left:86px;
 	top:187px;
 	animation:mouses 2s infinite;
+	-ms-animation:mouses 2s infinite;
+	-moz-animation:mouses 2s infinite;
+	-webkit-animation:mouses 2s infinite;
 	transform:scale(1);
 }
 /*arms胳膊*/
@@ -132,11 +142,17 @@ body{
 	left:35px;
 	transform:rotate(46deg);
 	animation:armslf 1s infinite;
+	-ms-animation:armslf 1s infinite;
+	-moz-animation:armslf 1s infinite;
+	-webkit-animation:armslf 1s infinite;
 }
 .arms-right{
 	left:265px;
 	transform:rotate(45deg);
 	animation:armsrg 1s infinite;
+	-ms-animation:armsrg 1s infinite;
+	-moz-animation:armsrg 1s infinite;
+	-webkit-animation:armsrg 1s infinite;
 }
 .arms-left .arms-line{
 	transform:rotate(-90deg);
@@ -284,10 +300,16 @@ body{
 }
 .feet-left{
 	animation:feetlf 1s infinite;
+	-ms-animation:feetlf 1s infinite;
+	-moz-animation:feetlf 1s infinite;
+	-webkit-animation:feetlf 1s infinite;
 	transform-origin:73px 14px;
 }
 .feet-right{
 	animation:feetrg 1s infinite;
+	-ms-animation:feetrg 1s infinite;
+	-moz-animation:feetrg 1s infinite;
+	-webkit-animation:feetrg 1s infinite;
 	transform-origin:0px 14px;
 }
 .feet-right .feet-tp{
@@ -307,6 +329,8 @@ body{
 	border-radius: 50%;
 	box-shadow:0px 0px 21px 10px #b5b5b5;
 	background:-webkit-radial-gradient(center center,#b3b3b3,#bebebe,#b5b5b5);
+	background:-ms-radial-gradient(center center,#b3b3b3,#bebebe,#b5b5b5);
+	background:-moz-radial-gradient(center center,#b3b3b3,#bebebe,#b5b5b5);
 	position: absolute;
 	top:347px;
 	left:53px;
