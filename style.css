@@ -1,11 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 body{
 	margin:0;
 	padding:0;
+	overflow:hidden;
 }
+/*introduce*/
+h1{
+	font-family:'Anonymous Pro', monospace;
+	position:absolute;
+	top:30%;
+	left:50px;	
+	white-space:nowrap;
+	width:550px;
+	border-right:2px solid rgba(0,0,0,0.75);
+	animation:introduce 4s steps(27) 3s 1 normal both,borders 500ms steps(27) infinite normal;
+	-webkit-animation:introduce 4s steps(27) 3s 1 normal both,borders 500ms steps(27) infinite normal;
+	-ms-animation:introduce 4s steps(27) 3s 1 normal both,borders 500ms steps(27) infinite normal;
+	-moz-animation:introduce 4s steps(27) 3s 1 normal both,borders 500ms steps(27) infinite normal;
+	overflow:hidden;
+}
+
+/*Minions*/
 .Minions{
 	position:relative;
 	width:300px;
-	margin:0 auto;
+	margin-top:100px;
+	margin-left:650px;
+	animation:comeIn 3s linear;
+	-webkit-animation:comeIn 3s linear;
+	-ms-animation:comeIn 3s linear;
+	-moz-animation:comeIn 3s linear;
 }
 .bdy{
 	box-sizing: border-box;
